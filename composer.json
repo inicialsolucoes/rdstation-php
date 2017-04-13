@@ -1,13 +1,13 @@
 {
-    "name": "fabianocouto/rdstation",
+    "name": "inicial/rdstation",
     "description": "RD Station Integration PHP Library",
     "keywords": ["rdstation", "integration", "leads", "api", "php"],
-    "homepage": "https://github.com/fabianocouto/rdstation",
+    "homepage": "https://github.com/inicialcombr/rdstation-php",
     "license": "MIT",
     "authors": [
         {
-            "name": "Fabiano Couto",
-            "email": "facodeli@gmail.com"
+            "name": "Inicial Soluções",
+            "email": "contato@inicial.com.br"
         }
     ],
     "autoload": {
