@@ -1,0 +1,21 @@
+{
+    "name": "fabianocouto/rdstation",
+    "description": "RD Station Integration PHP Library",
+    "keywords": ["rdstation", "integration", "leads", "api", "php"],
+    "homepage": "https://github.com/fabianocouto/rdstation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabiano Couto",
+            "email": "facodeli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "RDStation\\" : "RDStation/" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
