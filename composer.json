@@ -1,6 +1,6 @@
 {
     "name": "inicial/rdstation-php",
-    "description": "RD Station Integration PHP Library",
+    "description": "RD Station API Integration (PHP)",
     "keywords": ["rdstation", "integration", "leads", "api", "php"],
     "homepage": "https://github.com/inicialcombr/rdstation-php",
     "license": "MIT",

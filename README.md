@@ -17,7 +17,7 @@ Integration class to create and update leads on RD Station.
 
 ### Composer
 
-$ composer require fabianocouto/rdstation
+$ composer require inicial/rdstation-php
 
 ### Usage
 
@@ -43,6 +43,4 @@ $rdStation->sendLead();
 
 You can find more info about usage on class source code.
 
-Report any bug or suggest changes using git issues.
-
-I hope that class can help you and make your life a little easier! :)
+Report any bug or suggest changes using git [issues](https://github.com/inicialcombr/rdstation-php/issues).
