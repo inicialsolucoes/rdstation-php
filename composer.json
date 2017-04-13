@@ -1,5 +1,5 @@
 {
-    "name": "inicial/rdstation",
+    "name": "inicial/rdstation-php",
     "description": "RD Station Integration PHP Library",
     "keywords": ["rdstation", "integration", "leads", "api", "php"],
     "homepage": "https://github.com/inicialcombr/rdstation-php",
