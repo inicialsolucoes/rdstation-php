@@ -154,6 +154,33 @@ class RDStation
     }
 
     /**
+     * TRANSLATE LEAD DATA
+     *
+     * @return void
+     */
+    private function __translateLeadData() {
+
+        $data = array('identifier' => 'identificador',
+                      'name'       => 'nome',
+                      'title'      => 'cargo',
+                      'company'    => 'empresa',
+                      'phone'      => 'telefone',
+                      'cell_phone' => 'celular',
+                      'state'      => 'estado',
+                      'city'       => 'cidade');
+
+        foreach ($this->__leadData as $key => $value) {
+
+            if (isset($data[$key])) {
+
+                unset($this->__leadData[$key]);
+
+                $this->__leadData[$data[$key]] = $value;
+            }
+        }
+    }
+
+    /**
      * SET LEAD EMAIL
      *
      * @param  string $leadEmail
@@ -223,9 +250,8 @@ class RDStation
      *
      * Default Lead Data:
      *
-     * identificador, nome, cargo, empresa, cargo
-     * telefone, celular, estado, cidade, website
-     * twitter, c_utmz, traffic_source, cliente_id, tags
+     * identifier, name, title, company, phone, cell_phone, city, state
+     * website, twitter, c_utmz, traffic_source, cliente_id, tags
      *
      * Custom lead data can be set end send to RD Station
      *
@@ -245,11 +271,11 @@ class RDStation
      *
      * Required Lead Data
      *
-     * identificador (Identifier of the conversion event)
+     * identifier (Identifier of the conversion event)
      *
      * Optional Lead Data
      *
-     * nome, cargo, empresa, cargo, telefone, celular, estado, cidade
+     * name, title, company, phone, cell_phone, city, state
      * website, twitter, c_utmz, traffic_source, cliente_id, tags
      *
      * Custom lead data can be set end send to RD Station
@@ -270,13 +296,15 @@ class RDStation
             throw new \Exception("Lead email must be setted!");
         }
 
-        if (!isset($this->__leadData['identificador'])) {
-            throw new \Exception("Lead data 'identificador' must be setted!");
+        if (!isset($this->__leadData['identifier'])) {
+            throw new \Exception("Lead data 'identifier' must be setted!");
         }
 
         /////////////////////////////////////////////////////////////////////
         // PREPARE DATA COLLECTION //////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////
+
+        $this->__translateLeadData();
 
         $this->__leadData['token_rdstation'] = $this->__apiToken;
         $this->__leadData['email']           = $this->__leadEmail;
@@ -293,7 +321,7 @@ class RDStation
      *
      * Optional Lead Data
      *
-     * nome, cargo, empresa, cargo, telefone, celular, estado, cidade
+     * name, title, company, phone, cell_phone, city, state
      * website, twitter, c_utmz, traffic_source, cliente_id, tags
      *
      * Custom lead data can be set end send to RD Station
@@ -317,6 +345,8 @@ class RDStation
         /////////////////////////////////////////////////////////////////////
         // PREPARE DATA COLLECTION //////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////
+
+        $this->__translateLeadData();
 
         $leadData               = array();
         $leadData['auth_token'] = $this->__apiPrivateToken;
@@ -362,6 +392,8 @@ class RDStation
         // PREPARE DATA COLLECTION //////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////
 
+        $this->__translateLeadData();
+
         $this->__leadData['auth_token'] = $this->__apiPrivateToken;
 
         /////////////////////////////////////////////////////////////////////
@@ -405,6 +437,8 @@ class RDStation
         /////////////////////////////////////////////////////////////////////
         // PREPARE DATA COLLECTION //////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////
+
+        $this->__translateLeadData();
 
         $lead = array();
 
@@ -464,6 +498,8 @@ class RDStation
         /////////////////////////////////////////////////////////////////////
         // PREPARE DATA COLLECTION //////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////
+
+        $this->__translateLeadData();
 
         $this->__leadData['email'] = $this->__leadEmail;
 

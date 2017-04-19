@@ -27,8 +27,8 @@ require_once(dirname(__FILE__) . '/init.php');
 
 $rdStation = new \RDStation\RDStation('LEAD_EMAIL');
 $rdStation->setApiToken('RD_TOKEN');
-$rdStation->setLeadData('identificador', 'event-identifier');
-$rdStation->setLeadData('nome', 'Fabiano Couto');
+$rdStation->setLeadData('identifier', 'event-identifier');
+$rdStation->setLeadData('name', 'Fabiano Couto');
 
 // You can set all RD Station default fields and add custom fields as you want
 // Read more about on http://ajuda.rdstation.com.br/hc/pt-br
