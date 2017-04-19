@@ -7,11 +7,11 @@ try {
 	$rdStation = new \RDStation\RDStation('LEAD_EMAIL');
 	$rdStation->setApiToken('RD_TOKEN');
 
-	$rdStation->setLeadData('identificador', 'event-identifier');
-	$rdStation->setLeadData('nome'		   , 'Fabiano Couto');
-	$rdStation->setLeadData('cargo'		   , 'Webdeveloper');
-	$rdStation->setLeadData('cidade'	   , 'Rio de Janeiro');
-	$rdStation->setLeadData('estado'	   , 'RJ');
+	$rdStation->setLeadData('identifier', 'event-identifier');
+	$rdStation->setLeadData('name'		, 'Fabiano Couto');
+	$rdStation->setLeadData('title'	    , 'Systems Analyst');
+	$rdStation->setLeadData('city'	    , 'Natal');
+	$rdStation->setLeadData('state'	    , 'RN');
 
 	$response = $rdStation->sendLead();
 

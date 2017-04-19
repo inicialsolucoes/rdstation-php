@@ -7,10 +7,10 @@ try {
 	$rdStation = new \RDStation\RDStation('LEAD_EMAIL');
 	$rdStation->setApiPrivateToken('RD_PRIVATE_TOKEN');
 
-	$rdStation->setLeadData('nome'		   , 'Fabiano Couto');
-	$rdStation->setLeadData('cargo'		   , 'Webdeveloper');
-	$rdStation->setLeadData('cidade'	   , 'Rio de Janeiro');
-	$rdStation->setLeadData('estado'	   , 'RJ');
+	$rdStation->setLeadData('name' , 'Fabiano Couto');
+	$rdStation->setLeadData('title', 'Webdeveloper');
+	$rdStation->setLeadData('city' , 'Rio de Janeiro');
+	$rdStation->setLeadData('state', 'RJ');
 
 	$response = $rdStation->updateLead();
 
