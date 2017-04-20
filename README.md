@@ -1,5 +1,7 @@
 # RD Station API Integration (PHP)
 
+[![GitHub version](https://badge.fury.io/gh/inicialcombr%2Frdstation-php.svg)](https://badge.fury.io/gh/inicialcombr%2Frdstation-php)
+
 Integration class to create and update leads on RD Station.
 
 ### With this class you can
