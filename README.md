@@ -17,7 +17,7 @@ Integration class to create and update leads on RD Station.
 
 ### Composer
 
-$ composer require inicialcombr/rdstation-php
+$ composer require inicial/rdstation-php
 
 ### Usage
 
