@@ -1,5 +1,9 @@
 # RD Station API Integration (PHP)
 
+[![Packagist](https://img.shields.io/packagist/v/inicial/rdstation-php.svg?style=flat-square)](https://packagist.org/packages/inicial/rdstation-php)
+
+### Description
+
 Integration class to create and update leads on RD Station.
 
 ### With this class you can
