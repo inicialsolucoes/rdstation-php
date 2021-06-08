@@ -1,6 +1,7 @@
 # RD Station API Integration (PHP)
 
 [![Packagist](https://img.shields.io/packagist/v/inicial/rdstation-php.svg?style=flat-square)](https://packagist.org/packages/inicial/rdstation-php)
+[![License](https://img.shields.io/badge/license-RD%20Station%20PHP-blue.svg?style=flat-square)](https://github.com/inicialsolucoes/rdstation-php/blob/master/LICENSE)
 
 ### Description
 
