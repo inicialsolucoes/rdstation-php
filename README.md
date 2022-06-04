@@ -1,7 +1,6 @@
 # RD Station API Integration (PHP)
 
-[![Packagist](https://img.shields.io/packagist/v/inicial/rdstation-php.svg?style=flat-square)](https://packagist.org/packages/inicial/rdstation-php)
-[![License](https://img.shields.io/badge/license-RD%20Station%20PHP-blue.svg?style=flat-square)](https://github.com/inicialsolucoes/rdstation-php/blob/master/LICENSE)
+[![Latest Stable Version](http://poser.pugx.org/inicial/rdstation-php/v)](https://packagist.org/packages/inicial/rdstation-php) [![Total Downloads](http://poser.pugx.org/inicial/rdstation-php/downloads)](https://packagist.org/packages/inicial/rdstation-php) [![Latest Unstable Version](http://poser.pugx.org/inicial/rdstation-php/v/unstable)](https://packagist.org/packages/inicial/rdstation-php) [![License](http://poser.pugx.org/inicial/rdstation-php/license)](https://packagist.org/packages/inicial/rdstation-php) [![PHP Version Require](http://poser.pugx.org/inicial/rdstation-php/require/php)](https://packagist.org/packages/inicial/rdstation-php)
 
 ### Description
 
@@ -22,8 +21,9 @@ Integration class to create and update leads on RD Station.
 
 ### Composer
 
+```shell
 $ composer require inicial/rdstation-php
-
+```
 ### Usage
 
 ```php
