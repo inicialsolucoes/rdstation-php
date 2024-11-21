@@ -1,6 +1,6 @@
 # RD Station API Integration (PHP)
 
-[![Latest Stable Version](http://poser.pugx.org/inicial/rdstation-php/v)](https://packagist.org/packages/inicial/rdstation-php) [![Total Downloads](http://poser.pugx.org/inicial/rdstation-php/downloads)](https://packagist.org/packages/inicial/rdstation-php) [![Latest Unstable Version](http://poser.pugx.org/inicial/rdstation-php/v/unstable)](https://packagist.org/packages/inicial/rdstation-php) [![License](http://poser.pugx.org/inicial/rdstation-php/license)](https://packagist.org/packages/inicial/rdstation-php) [![PHP Version Require](http://poser.pugx.org/inicial/rdstation-php/require/php)](https://packagist.org/packages/inicial/rdstation-php)
+[![Latest Stable Version](https://poser.pugx.org/inicial/rdstation-php/v)](https://packagist.org/packages/inicial/rdstation-php) [![Total Downloads](https://poser.pugx.org/inicial/rdstation-php/downloads)](https://packagist.org/packages/inicial/rdstation-php) [![Latest Unstable Version](https://poser.pugx.org/inicial/rdstation-php/v/unstable)](https://packagist.org/packages/inicial/rdstation-php) [![License](https://poser.pugx.org/inicial/rdstation-php/license)](https://packagist.org/packages/inicial/rdstation-php) [![PHP Version Require](https://poser.pugx.org/inicial/rdstation-php/require/php)](https://packagist.org/packages/inicial/rdstation-php)
 
 ### Description
 
